@@ -25,13 +25,19 @@
 1. あらかじめ自分のドメイン管理アプリに設定を追加
    - 例: `CNAME 3600 ユーザー名.github.io` (ユーザー名は自身のGitHubアカウント名に置き換え)
 1. CNAMEファイルを追加
+   - 例: https://github.com/ongaeshi/day_ongaeshi/blob/master/CNAME
 1. _config.yml の url と baseurl を書き換え
+   - 例: https://github.com/ongaeshi/day_ongaeshi/blob/master/_config.yml#L5-L6
 1. DNS Check in Progressが終わるまでしばらく待つ
 1. Enforce HTTPS を設定
    - 参考: https://day.ongaeshi.me/20220709
 
-## Test locally
+## ローカル環境で動かしたい
+基本Jekyllですが`_posts`を生成するためのRubyスクリプトを実行する必要があります。
+
 ```
+$ git clone https://github.com/ongaeshi/day
+$ cd day
 $ bundle install
 $ ruby ./days_to_posts.rb
 $ jekyll serve --watch
