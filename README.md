@@ -1,14 +1,16 @@
 # day
-ファイル構造にとらわれずに記事が書けるブログシステムです。  
+ファイル構造の制約を受けずに記事が書けるブログシステムです。  
 1つのファイルから複数の記事を出力することも、長い記事を別ファイルに分けることも可能です。
 
 ## 記事の追加
 - `_days/`以下にマークダウン形式(`.md`)で記事を書きます
-- マークダウンに日付を付けた見出し(`# 2022-07-19`)を作ると中身がその日の投稿になります
+- `# 2022-07-19`のように日付を付けた見出しを作ると中身がその日の投稿になります
 - `# 2022-07-19 今日の出来事`のように日付の後ろに空白を開けてテキストを書くとタイトルになります
 
 ## 例
-_days/2022.md (Deploy to https://ongaeshi.github.io/day/20220717 and https://ongaeshi.github.io/day/20220715)
+_days/2022.md
+- → https://ongaeshi.github.io/day/20220717
+- → https://ongaeshi.github.io/day/20220715
 
 ```markdown
 # 2022-07-17 Hello, World!
@@ -21,7 +23,8 @@ Day is a blogging system that allows you to write articles without being restric
 .
 ```
 
-_days/a_long_article.md (Deploy to https://ongaeshi.github.io/day/20220716)
+_days/a_long_article.md
+- → https://ongaeshi.github.io/day/20220716
 
 ```markdown
 # 2022-07-16
@@ -45,8 +48,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget laoree
 1. GitHub Actionsの`page build and deployment`が成功していたらリンク先にブログが開設されています
 ![](https://i.gyazo.com/thumb/480/f7529faa49226540f312b19174c41644.png)
 
-## 独自ドメインにデプロイ
-1. あらかじめ自分のドメイン管理アプリに設定を追加
+## 独自ドメイン
+1. あらかじめドメイン管理アプリに設定を追加
    - 例: `CNAME 3600 ユーザー名.github.io` (ユーザー名は自身のGitHubアカウント名に置き換え)
 1. CNAMEファイルを追加
    - 例: https://github.com/ongaeshi/day_ongaeshi/blob/master/CNAME
