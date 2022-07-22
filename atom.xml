@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>day</title>
+ <link href="https://ongaeshi.github.io/day/atom.xml" rel="self"/>
+ <link href="https://ongaeshi.github.io/day/"/>
+ <updated>2022-07-23T03:04:06+09:00</updated>
+ <id>https://ongaeshi.github.io</id>
+ <author>
+   <name>yourname</name>
+   <email>youname@example.com</email>
+ </author>
+
+ 
+ <entry>
+   <title>Hello, World!</title>
+   <link href="https://ongaeshi.github.io/20220717"/>
+   <updated>2022-07-17T00:00:00+09:00</updated>
+   <id>https://ongaeshi.github.io/day/day</id>
+   <content type="html">&lt;p&gt;Day is a blogging system that allows you to write articles without being restricted by file structure.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>2022-07-16</title>
+   <link href="https://ongaeshi.github.io/20220716"/>
+   <updated>2022-07-16T00:00:00+09:00</updated>
+   <id>https://ongaeshi.github.io/day/day</id>
+   <content type="html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget laoreet tortor. Suspendisse potenti. Nam maximus enim eget metus aliquam, in fermentum sem pharetra. Integer ultrices felis id tristique suscipit. Suspendisse lorem massa, lobortis bibendum pellentesque viverra, porttitor a nunc. Proin tortor augue, ornare laoreet volutpat vel, dignissim sit amet sapien. Nullam vestibulum feugiat ante id ultrices. Maecenas ut vehicula turpis, ut iaculis nibh. Nunc maximus ipsum at lorem vestibulum, eget convallis quam aliquam.&lt;/p&gt;
+
+&lt;p&gt;Proin mollis dolor nec eros ullamcorper consequat. Fusce feugiat dui et nisi vestibulum, at bibendum magna vulputate. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vehicula lobortis mi, et viverra leo blandit et. Nullam sed scelerisque felis. Phasellus luctus ipsum eu tellus efficitur, non iaculis ligula pharetra. Cras sapien quam, fringilla in vestibulum ac, molestie vel dui. Cras lobortis non nisl vitae malesuada. Nullam interdum a nisl ut semper.&lt;/p&gt;
+
+&lt;p&gt;Aliquam tempus massa at lorem dapibus ultricies. Aenean lobortis purus vel leo cursus elementum. Ut facilisis venenatis elit, nec vulputate lorem placerat eu. Interdum et malesuada fames ac ante ipsum primis in faucibus. Duis dapibus aliquam sem vitae sollicitudin. Aliquam varius aliquam nisl vitae bibendum. Pellentesque tincidunt porttitor sem, id sagittis quam eleifend sit amet. Morbi ac laoreet felis. Ut ut odio non ligula faucibus fringilla. Pellentesque ultrices nisl at nulla volutpat bibendum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hac habitasse platea dictumst. Nulla vehicula nunc mi, ac vehicula diam volutpat a. Sed nibh velit, finibus ut sollicitudin vitae, congue id felis. Suspendisse efficitur imperdiet tincidunt.&lt;/p&gt;
+
+&lt;p&gt;In quis placerat nunc, vitae scelerisque erat. Suspendisse aliquam non arcu vel luctus. Fusce venenatis sem sit amet dolor ultricies dignissim. Proin consectetur pharetra purus, eget porttitor libero iaculis volutpat. Mauris id nisi vel dui congue tincidunt accumsan in mi. Sed aliquet ipsum et magna rutrum facilisis. Pellentesque quis lacus sapien.&lt;/p&gt;
+
+&lt;p&gt;Donec non felis vel odio gravida venenatis. Ut ut magna lectus. Proin ac ligula et elit rutrum iaculis. Mauris pellentesque, eros sit amet volutpat tempus, augue lectus gravida metus, nec pharetra massa risus sed est. Suspendisse commodo ullamcorper posuere. Maecenas a dui eu dui facilisis volutpat. Ut tempus sapien id pretium tincidunt.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Image</title>
+   <link href="https://ongaeshi.github.io/20220715"/>
+   <updated>2022-07-15T00:00:00+09:00</updated>
+   <id>https://ongaeshi.github.io/day/day</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;https://i.gyazo.com/6aa6ecbf28b6af9f5684487bc42f2620.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+
+</feed>
