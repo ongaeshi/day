@@ -1,12 +1,36 @@
 # day
-毎日書けるブログシステム。新規投稿にファイルの追加が不要です。
+ファイル構造にとらわれずに記事が書けるブログシステムです。  
+1つのファイルから複数の記事を出力することも、長い記事を別ファイルに分けることも可能です。
 
-## 記事の投稿
-- マークダウンに日付を付けた見出し(`# 2022-07-19`)を作ると中身がその日の投稿になります(例: [_days/2022.md](https://github.com/ongaeshi/day/blob/main/_days/2022.md))
-- `# 2022-07-19 今日の出来事`のように日付の後ろに空白を開けて記事にタイトルを付けることもできます
-- `_days/`ディレクトリ以下の全ての`.md`ファイルが投稿対象になります(ファイルの分割単位は自由です)
+## 記事の追加
+- `_days/`以下にマークダウン形式(`.md`)で記事を書きます
+- マークダウンに日付を付けた見出し(`# 2022-07-19`)を作ると中身がその日の投稿になります
+- `# 2022-07-19 今日の出来事`のように日付の後ろに空白を開けてテキストを書くとタイトルになります
 
-## デプロイ
+## 例
+_days/2022.md (Deploy to https://ongaeshi.github.io/day/20220717 and https://ongaeshi.github.io/day/20220715)
+
+```markdown
+# 2022-07-17 Hello, World!
+Day is a blogging system that allows you to write articles without being restricted by file structure.
+
+# 2022-07-15 Image
+![](https://i.gyazo.com/6aa6ecbf28b6af9f5684487bc42f2620.gif)
+
+.
+.
+```
+
+_days/a_long_article.md (Deploy to https://ongaeshi.github.io/day/20220716)
+
+```markdown
+# 2022-07-16
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget laoreet tortor. Suspendisse potenti. Nam maximus enim eget metus aliquam, in fermentum sem pharetra. Integer ultrices felis id tristique suscipit. Suspendisse lorem massa, lobortis bibendum pellentesque viverra, porttitor a nunc. Proin tortor augue, ornare laoreet volutpat vel, dignissim sit amet sapien. Nullam vestibulum feugiat ante id ultrices. Maecenas ut vehicula turpis, ut iaculis nibh. Nunc maximus ipsum at lorem vestibulum, eget convallis quam aliquam.
+.
+.
+```
+
+## セットアップ
 1. このレポジトリの**Use this template**ボタンを押します
 ![](https://i.gyazo.com/f4bc4e39acf3d40bb4314ef38c395863.png)
 1. Owner(オーナー)とRepository Name(レポジトリ名)を設定して**Create repository from template**ボタンを押します
@@ -21,7 +45,7 @@
 1. GitHub Actionsの`page build and deployment`が成功していたらリンク先にブログが開設されています
 ![](https://i.gyazo.com/thumb/480/f7529faa49226540f312b19174c41644.png)
 
-## 独自ドメインにデプロイする
+## 独自ドメインにデプロイ
 1. あらかじめ自分のドメイン管理アプリに設定を追加
    - 例: `CNAME 3600 ユーザー名.github.io` (ユーザー名は自身のGitHubアカウント名に置き換え)
 1. CNAMEファイルを追加
